@@ -9,9 +9,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # 전역 변수들
-# import private_info # 개인정보있는 파일
-my_ID = "duaxka7@naver.com"
-my_PW = "rptdoa11"
+import private_info # 개인정보있는 파일
+my_ID = private_info.my_ID
+my_PW = private_info.my_PW
 
 prev_my_Money = 0
 my_Money = 0
